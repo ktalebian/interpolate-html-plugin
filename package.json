@@ -1,7 +1,7 @@
 {
   "name": "@k88/interpolate-html-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "An HTML interpolation plugin for supporting templated HTML file",
   "homepage": "https://github.com/ktalebian/interpolate-html-plugin#readme",
   "bugs": {
     "url": "https://github.com/ktalebian/interpolate-html-plugin/issues"
@@ -12,6 +12,9 @@
   },
   "license": "ISC",
   "author": "Kousha Talebian <k@ousha.me>",
+  "files": [
+    "build"
+  ],
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
