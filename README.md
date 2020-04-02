@@ -1,6 +1,6 @@
 # interpolate-html-plugin
 
-Taken from [react-dev-utils](https://github.com/facebook/create-react-app/blob/master/packages/react-dev-utils/InterpolateHtmlPlugin.js).
+Taken from [react-dev-utils](https://github.com/facebook/create-react-app/blob/master/packages/react-dev-utils/InterpolateHtmlPlugin.js), but is published as a standalone plugin and has Typescript definition.
 
 ## Installation
 

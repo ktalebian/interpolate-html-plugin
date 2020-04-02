@@ -14,9 +14,9 @@ import { Compiler } from 'webpack';
  */
 
 export default class InterpolateHtmlPlugin {
-  private readonly replacements: object;
+  private readonly replacements: Record<string, string>;
 
-  constructor(replacements: object) {
+  constructor(replacements: Record<string, string>) {
     this.replacements = replacements;
   }
 
