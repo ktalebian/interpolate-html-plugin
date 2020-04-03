@@ -1,7 +1,7 @@
 {
   "name": "@k88/interpolate-html-plugin",
   "version": "1.0.2",
-  "description": "An HTML interpolation plugin for supporting templated HTML file",
+  "description": "An HTML interpolation plugin for supporting template HTML file",
   "homepage": "https://github.com/ktalebian/interpolate-html-plugin#readme",
   "bugs": {
     "url": "https://github.com/ktalebian/interpolate-html-plugin/issues"
@@ -21,7 +21,9 @@
     "prebuild": "rm -rf build",
     "build": "tsc",
     "lint": "eslint --ext ts src/",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public"
   },
   "husky": {
     "hooks": {
