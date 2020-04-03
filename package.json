@@ -1,6 +1,6 @@
 {
   "name": "@k88/interpolate-html-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An HTML interpolation plugin for supporting template HTML file",
   "homepage": "https://github.com/ktalebian/interpolate-html-plugin#readme",
   "bugs": {
