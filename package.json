@@ -1,6 +1,6 @@
 {
   "name": "@k88/interpolate-html-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An HTML interpolation plugin for supporting template HTML file",
   "keywords": [
     "html webpack plugin",
