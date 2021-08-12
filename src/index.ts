@@ -20,7 +20,7 @@ export default class InterpolateHtmlPlugin {
     this.replacements = replacements;
   }
 
-  apply(compiler: Compiler) {
+  apply(compiler: Compiler): void {
     compiler.hooks.compilation.tap('InterpolateHtmlPlugin', (compilation) => {
       HtmlWebpackPlugin.getHooks(compilation).afterTemplateExecution.tap('InterpolateHtmlPlugin', (data) => {
         // Run HTML through a series of user-specified string replacements.
